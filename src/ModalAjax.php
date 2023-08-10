@@ -20,6 +20,7 @@ class ModalAjax extends Widget
 
     const BOOTSTRAP_VERSION_3 = 3;
     const BOOTSTRAP_VERSION_4 = 4;
+    const BOOTSTRAP_VERSION_5 = 5;
 
     /**
      * events
@@ -307,6 +308,14 @@ class ModalAjax extends Widget
     private function _isBs4()
     {
         return $this->bootstrapVersion === self::BOOTSTRAP_VERSION_4;
+    }
+
+    /**
+     * @return bool
+     */
+    private function _isBs5()
+    {
+        return $this->bootstrapVersion === self::BOOTSTRAP_VERSION_5;
     }
 
 }
