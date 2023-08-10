@@ -7,7 +7,7 @@
     "modal",
     "ajax-modal"
   ],
-  "homepage": "https://github.com/ivankff/yii2-modal-ajax",
+  "homepage": "https://github.com/rsgrey/yii2-modal-ajax",
   "version": "4.1.0",
   "type": "yii2-extension",
   "license": "MIT",
